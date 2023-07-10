@@ -1,0 +1,42 @@
+.wrapper_pagination {
+  display: flex;
+  list-style-type: none;
+  box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pages-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.pages-list-item {
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.pages-list-item-move {
+  padding: 10px;
+}
+
+.pages-list-item:hover {
+  background-color: #397f84;
+  color: white;
+  opacity: 0.85;
+}
+
+.pages-list-item:hover .button {
+  background-color: #397f84;
+  color: white;
+  opacity: 0.85;
+}
+
+.item_active {
+  color: #ffffff;
+  background-color: #397f84;
+}
+
+.item_active:hover {
+  background-color: #397f84;
+  opacity: 0.6;
+  color: white;
+}
